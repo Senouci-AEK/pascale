@@ -1,0 +1,23 @@
+Algorithme calculatrice
+Variables
+a,b,c : réel 
+ o : caractère
+ Début 
+ Ecrire (" veuillez donnes la valeur de a  et b " )
+ Lire ( a, b )
+ Ecrire (" veuilez entrer la opératoin " )
+ Lire ( o ) 
+Cas o vaut 
+ " + "  : c <--- a + b  
+ Ecrire (" la resultat est " , c )
+ " / "  : c <--- a / b  
+ Ecrire (" la resultat est " , c ) 
+ " - "  : c <--- a - b  
+ Ecrire (" la resultat est " , c )
+ " * "  : c <--- a * b   
+ Ecrire (" la resultat est " , c )
+ Sinon 
+ Ecrire (" cette opératoin n' existe pas dons cette calculatrice " )
+ fin Cas
+ Fin 
+ 

@@ -1,0 +1,19 @@
+Algorithme    la facture
+Variables
+n : entier
+f : réel
+Début
+Ecrire (" donnes le nombre : ")
+Lire (n)
+Si n<=10 Alors
+f<-- n * 0.30 
+Sinon
+Si n<=30 Alors
+f<-- 10 * 0.30 + (n - 10) * 0.25
+Sinon
+f<-- 10 * 0.30 + (n - 10) * 0.25 + (n - 30 ) * 0.20
+fin Si
+fin Si
+Ecrire (" la facture est : "f " DA" )
+Fin
+

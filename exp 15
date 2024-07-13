@@ -1,0 +1,20 @@
+Algorithme  l'impot
+ Variables 
+ a : entier
+ s : chaine de caractères
+Début 
+Ecrire (" donnés votre l' age ")
+Lire ( a )
+Ecrire (" donnés votre sexe " )
+Lire ( s )
+Si a > 20 et s = " homme "  Alors 
+Ecrire (" c'est imposable ") 
+Sinon
+Si a => 18 et a <= 35 et s= " femme "  Alors
+Ecrire (" c'est imposable ")
+Sinon 
+Ecrire ( " non imposable " ) 
+fin Si
+fin Si 
+Fin
+ 

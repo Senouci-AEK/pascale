@@ -1,0 +1,21 @@
+Algorithme  l' age
+Variables
+a: entier
+Début
+Ecrire (" donnes ton l' age")
+Lire ( a)
+a>=6
+Si a<=7 alors
+Ecrire (" poussin ")
+Sinon 
+Si a <= 9 alors
+Ecrire (" pupille")
+Sinon
+Si a < = 11 alors 
+Ecrire (" minime " )
+Sinon 
+Ecrire ("cadet")
+fin Si
+fin Si
+fin Si
+Fin

@@ -1,0 +1,13 @@
+Algorithme   signe
+Variables
+ a,b: entier
+ Début
+ Ecrire(" donnes la valeur de a et b ")
+ Lire (a,b)
+ Si a * b > 0  Alors
+Ecrire(" méme signe")
+Sinon
+Ecrire("non")
+fin Si
+Fin 
+

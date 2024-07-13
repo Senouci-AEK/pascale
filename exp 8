@@ -1,0 +1,13 @@
+Algorithme le ton
+Variables
+ t,h,m,n,s: entier
+ Début
+ Ecrire("donnes la valeur de t ")
+ Lire (t) 
+ h<-- t div 3600
+ n<-- mod t
+ m<-- n div 60
+ s<-- n mod 60
+ Ecrire("h:",h "m:",m "s:",s)
+ Fin
+ 

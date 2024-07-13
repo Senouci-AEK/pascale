@@ -1,0 +1,18 @@
+Algorithme  magasin
+Variables 
+pht, pttc : réel
+ cat : caractère 
+ Début 
+ Ecrire (" entrer le prix hors taxe ") 
+ Lire (pht)
+ Ecrire ( " veuillez entrer la catégorie de produit " )
+ Lire ( cat )
+ Cas cat vaut 
+  "A" <---- Ecrire ("le prix de ttc est : " ,  pht + pht * 0.2 ) 
+   "B" <---- Ecrire ("le prix de ttc est : " pht + pht * 0.25 ) 
+   "c" <---- Ecrire ("le prix de ttc est : " pht + pht * 0.7 )
+   Sinon 
+   Ecrire (" cette catégorie n' existe pas ")
+   fin Cas 
+   Fin 
+   

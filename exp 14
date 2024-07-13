@@ -1,0 +1,23 @@
+Algorithme equatoin 
+Variables
+a,b,c,x1,x2,x,d : réel
+Début
+Ecrire (" entres les valeurs a , b et c")
+Lire ( a, b , c )
+d <-- ( b ^ 2 ) -4 * a * c 
+Si d = 0 Alors 
+Ecrire (" une seul  solutoin " )
+x<-- -b / ( 2 * a )
+Ecrire ( " la solutoin x = " x)
+Sinon  
+Si d > 0 Alors 
+Ecrire ("  Il ya deux solutoins " )
+x1 <--- ( -b - Sqrt (d) ) / ( 2 * a )
+x2 <--- (-b + Sqrt (d)) / ( 2 * a ) 
+Ecrire ( " la premier solutoin x1=" x1)
+Ecrire ( " la deuxiéme solutoin x2=" x2)
+Sinon 
+Ecrire (" aucun solutoin " ) 
+fin Si 
+fin Si
+Fin 

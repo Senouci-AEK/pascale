@@ -1,0 +1,26 @@
+ Algorithme les jours
+ Variables 
+ m : chaine de caractères 
+Début 
+ Ecrire (" donnes le mois  " )
+ Lire ( m )
+ Cas m vaut 
+ "janvier" : Ecrire (" le nombre de les joures 31 " )
+ "février" : Ecrire (" le nombre de les joures 28 ou 29 " )
+ "mars" : Ecrire (" le nombre de les joures 31 " )
+ "avril" : Ecrire (" le nombre de les joures 30 " )
+ "mai" : Ecrire (" le nombre de les joures 31 " )
+ "juin " : Ecrire (" le nombre de les joures 30 " )
+ "juillet" : Ecrire (" le nombre de les joures 31 " )
+ "out" : Ecrire (" le nombre de les joures 30 " )
+ "septembre" : Ecrire (" le nombre de les joures 31 " )
+ "novombre" : Ecrire (" le nombre de les joures 30 " )
+ "octobre" : Ecrire (" le nombre de les joures 31 " )
+ "décombre" : Ecrire (" le nombre de les joures 31 " )
+ Sinon
+Ecrire ( " le nom de cette mois c'est faux " )
+fin Cas
+ Fin 
+ 
+ 
+ 

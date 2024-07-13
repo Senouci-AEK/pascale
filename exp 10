@@ -1,0 +1,18 @@
+Algorithme  echange
+Variables
+a,b,d,c : entier
+ Début
+ Ecrire (" donnes la valeure de a et b")
+ Lire (a,b)
+ Si a * b > 0  Alors 
+ a<-- a + b
+ b<-- a - b
+ a<-- a - b
+ Sinon 
+ c<-- a+b
+ d<-- a * b
+ a<-- c
+ b<-- d
+fin Si
+Fin 
+

@@ -1,0 +1,32 @@
+Algorithme la moyenne 
+ Variables
+  m,n1,n2,n3: réel
+  Début
+  Ecrire (" entre votre trois notes " ) 
+  Lire ( n1,n2,n3 )
+  m<---  ( n1 + n2 + n3 ) / 20
+  Si 14 <= m et 16 > m Alors
+   Ecrire ( " la montoin est bien " )
+Sinon   
+   Si m => 16  Alors
+   Ecrire ( " la montoin est trés bien " )
+   Sinon
+   Si  12 <= m et 14 > m Alors
+   Ecrire ( " la montoin est assez bien " )
+   Sinon 
+   Si 10 <= m et 12 > m Alors
+   Ecrire ( " la montoin est bien " ) 
+   Sinon
+   Si 0 < = m et 10 > m Alors
+   Ecrire ( " la montoin est insuffisant " ) 
+   Sinon 
+   Ecrire (" errore " )
+   fin Si 
+   fin Si
+   fin Si
+   fin Si
+   fin Si
+   Ecrire ("  la moyenne est : " m )
+   Fin
+   
+   
